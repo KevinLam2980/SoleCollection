@@ -10,7 +10,7 @@ import './assets/styles/app.scss';
 import Vue2Filters from 'vue2-filters'
 import Swal from 'sweetalert2';
 import VueCarousel from 'vue-carousel';
-// import store from './store.js';
+import store from './store.js';
 require('firebase/firestore')
 
 
@@ -48,7 +48,7 @@ fb.auth().onAuthStateChanged(function(user) {
   if(!app){
     new Vue({
       router,
-      // store,
+      store,
       render: h => h(App)
     }).$mount("#app");
     

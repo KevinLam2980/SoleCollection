@@ -19,6 +19,7 @@
         </div>
       </div>
     <Login></Login>
+    <MiniCart></MiniCart>
   </div>
 </template>
 
@@ -27,12 +28,14 @@
 // import HelloWorld from "@/components/HelloWorld.vue";
 import Header from "@/components/Header.vue";
 import Login from "@/components/Login.vue";
+import MiniCart from '../components/MiniCart.vue';
 // import Products from "@/sections/Products.vue";
 export default {
   name: "Home",
   components: {
     Header,
     Login,
+    MiniCart
     // Products
   }
 };
