@@ -51,6 +51,7 @@
 <script>
 import { Card, createToken } from 'vue-stripe-elements-plus';
 export default {
+    name: "Checkout",
     data () {
     return {
       complete: false,
