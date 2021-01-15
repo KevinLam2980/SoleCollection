@@ -38,7 +38,7 @@
 
                         <button class='pay-with-stripe btn btn-primary mt-4' @click='pay' :disabled='!complete'>Pay with credit card</button>
                     
-                    </form>
+                    <!-- </form> -->
                 </div>
             </div>
 
