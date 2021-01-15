@@ -29,8 +29,6 @@
                         Total Price : {{ this.$store.getters.totalPrice | currency }}
                     </p>
 
-                   
-
                     <card class='stripe-card'
                         :class='{ complete }'
                         stripe='pk_test_XXXXXXXXXXXXXXXXXXXXXXXX'
