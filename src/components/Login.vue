@@ -142,9 +142,6 @@ import { fb, db } from "../firebase";
 import $ from 'jquery'; 
 export default {
   name: "Login",
-  props: {
-    msg: String,
-  },
   data() {
     return {
       name: null,
